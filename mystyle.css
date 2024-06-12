@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100%;
+    padding: 1%;
+    background-color: #b2adad;
+}
+
+.main-container {
+    width: 70%;
+    margin: auto;
+    padding: 1.5%;
+    border:2px dotted white;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.img-div {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.img-div img {
+    width: 23%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #9c8c3d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(96, 86, 37);
+}
+
+span {
+    font-size: 1.6rem;
+    margin: 0 20px;
+    display: none;
+    color: white;
+}
